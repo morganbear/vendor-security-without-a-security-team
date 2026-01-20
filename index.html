@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vendor Security Without a Security Team</title>
+  <meta name="description" content="A practical approach to vendor security decisions for small teams without a dedicated security department, plus a link to the Vendor Security Sanity Check guide." />
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      color: #111;
+      background: #fff;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin: 0 0 28px;
+      color: #444;
+      font-size: 1.05rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 32px 0 10px;
+      letter-spacing: -0.01em;
+    }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px 20px; }
+    li { margin: 6px 0; }
+    .quote {
+      margin: 16px 0 18px;
+      padding: 14px 16px;
+      border-left: 4px solid #ddd;
+      background: #fafafa;
+      color: #222;
+    }
+    .card {
+      margin-top: 18px;
+      padding: 18px 18px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      background: #fcfcfc;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      text-decoration: none;
+      color: #111;
+      background: #fff;
+      font-weight: 600;
+    }
+    .btn:hover { background: #f6f6f6; }
+    .fine {
+      margin-top: 10px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+    .hr {
+      height: 1px;
+      background: #eee;
+      margin: 28px 0;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Vendor Security Without a Security Team</h1>
+    <p class="sub">A practical way to decide how much vendor scrutiny is enough, without security theater.</p>
+
+    <h2>The problem this page exists to solve</h2>
+    <p>Small and mid-sized teams often don’t have a security department.</p>
+    <p>But they still have to decide whether a vendor is safe enough to use.</p>
+
+    <div class="quote">
+      “How much vendor security review is enough here?”
+    </div>
+
+    <p>What’s usually missing isn’t information. It’s a <strong>stopping rule</strong>:</p>
+    <ul>
+      <li>How much scrutiny this vendor deserves</li>
+      <li>Which signals actually matter</li>
+      <li>When you’ve done enough to move forward</li>
+    </ul>
+
+    <h2>What I ended up doing</h2>
+    <p>After repeating the same mental process over and over, I wrote it down.</p>
+    <p>Not as a compliance framework. Not as a 200-question spreadsheet.</p>
+    <p>As a practical decision guide: classify the vendor, ask only the right questions for that risk level, interpret answers sanely, and document a defensible decision.</p>
+
+    <h2>If this sounds familiar</h2>
+    <p>This may be useful if:</p>
+    <ul>
+      <li>You’re responsible for approving vendors, but security isn’t your full-time job</li>
+      <li>You’re tired of over- or under-reacting to SOC 2 reports</li>
+      <li>You want something that helps you <em>finish</em> a decision and move on</li>
+    </ul>
+
+    <p>This is not for enterprise-scale third-party risk programs or full compliance builds.</p>
+
+    <div class="hr"></div>
+
+    <div class="card">
+      <h2 style="margin-top:0;">The guide</h2>
+      <p><strong>Vendor Security Sanity Check</strong><br />
+      A structured PDF guide and templates for evaluating SaaS vendors without a security team.</p>
+      <a class="btn" href="https://redbearsecurity.gumroad.com/l/vendor_security_sanity_check">View on Gumroad</a>
+      <p class="fine">One-time purchase PDF. No software. No subscriptions.</p>
+    </div>
+  </main>
+</body>
+</html>
